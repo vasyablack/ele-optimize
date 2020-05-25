@@ -1,10 +1,9 @@
 <?php
 /*
 Plugin Name: Elementor Optimize
-Description: https://github.com/wpi-pw/app
-Author: Dima Minka, CDK, WPI
-Version: 1.0
-Author URI: https://dima.mk
+Description: https://github.com/vasyablack/elementor-optimize
+Author: Vasiliy Lyakhov
+Author URI: https://oktaa.ru
 */
 
 /**
@@ -51,7 +50,7 @@ function remove_default_elementor_icons() {
 add_action( 'elementor/frontend/after_register_styles', 'remove_default_elementor_icons', 20 );
 
 /**
- * Deregister Theme Scripts & Styles.
+ * Deregister Elementor Hello Theme Scripts & Styles.
  *
  * @return void
  */
